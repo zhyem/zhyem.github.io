@@ -235,3 +235,20 @@ input[type="radio"]{vertical-align: middle;}
 	.w70 {width: 70px !important;}
 	.w100 {width: 100px !important;}
 	.w120 {width: 120px !important;}
+
+
+
+
+#header {position: fixed;top: 0;left: 0;width: 100%;background-color: #ddd;}
+#header h1 {float: left;}
+#header h1 a {line-height: 60px;width: 140px;text-align: center;background-color: #ccc;transition:.3s;color: #111;}
+#header h1 a:hover {background-color: #bbb;}
+#header nav {float: right;margin-right: -20px;}
+#header nav ul {}
+#header nav ul li {float: left;display: table;table-layout: auto;}
+#header nav ul li a {padding: 0 40px;display: table-cell;vertical-align: middle;background-color: #ccc;height: 60px;transition:.3s;color: #111;}
+#header nav ul li a:hover {background-color: #bbb;}
+
+#body {padding-top: 60px;min-height: 500px;}
+
+#footer {text-align: center;background-color: #ddd;color: #111;line-height: 40px;}
