@@ -1,38 +1,189 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="imagetoolbar" content="no">
-<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
-<title>김중현_포트폴리오</title>
-<link rel="stylesheet" href="./css/common.css">
-</head>
-<body>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>김중현_포트폴리오</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./plugin/jquery.fullpage.css" />
 
-<header id="header">
-	<div class="wrap clear">
-		<h1 class="logo"><a href="https://zhyem.github.io/">LOGO</a></h1>
-		<nav>
-			<ul class="clear">
-				<li><a href="">About</a></li>
-				<li><a href="">PortFolio</a></li>
-				<li><a href="">Skill</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
-
-<div id="body">
-	<div class="wrap">
-		body
-	</div>
-</div>
-
-<footer id="footer">
-	<div class="wrap">
-		유진이 사랑해
-	</div>
-</footer>
-
-</body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="./plugin/jquery.fullpage.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/swiper.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#fullpage').fullpage({
+          anchors: ['J', 'PORTFOLIO', 'ABOUT'],
+          sectionsColor: ['#ffffff', '#000000', '#ffffff'],
+          css3: true,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header class="Header">
+      <div class="wrap clear">
+        <h1>
+          <a href="#J">J.HYEON</a>
+        </h1>
+        <nav>
+          <ul class="clear">
+            <li>
+              <a href="#J">J.HYEON</a>
+            </li>
+            <li>
+              <a href="#PORTFOLIO">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#ABOUT">ABOUT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <footer class="Footer">
+      <div class="wrap">
+        <p class="copy">© 2024 All rights reserved</p>
+      </div>
+    </footer>
+    <div id="fullpage">
+      <div class="section" id="section0">
+        <h2><span>기</span>본을 지키는 웹 퍼블리셔</h2>
+      </div>
+      <div class="section" id="section1">
+        <h2>PORTFOLIO</h2>
+        <div class="tab_area">
+          <div class="tabs">
+            <a href="javascript:void(0);" class="current">대기업 · 상장기업</a>
+            <a href="javascript:void(0);">관공서 · 대학교</a>
+            <a href="javascript:void(0);">일반기업 · 스타트업</a>
+            <a href="javascript:void(0);">솔루션 · 쇼핑몰</a>
+          </div>
+          <ul class="tab_cons">
+            <li class="current">
+              <swiper-container class="swiper swiper1" slides-per-view="4" space-between="40" grab-cursor="true">
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+                <swiper-slide>
+                  <a href="" target="_black">
+                    <img src="./images/ex.jpg" alt="" />
+                    <dl>
+                      <dt>에스엠유니버스</dt>
+                      <dd>대기업 · 상장기업 ㅣ 2023</dd>
+                    </dl>
+                   </a>
+                </swiper-slide>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section" id="section2">
+        <div class="section2_content">
+          <div class="top">
+            <h2>역량과 경험을 갖춘 <br><span>6년차 퍼블리셔</span> 김중현 입니다.</h2>
+            <p>“성실함은 언제나 긍정적인 결과를 가져온다.” 저의 생활신조입니다. <br>좋은 결과를 위한 성실함과 제가 선택한 길에 대한 고민으로 보낸 시간은 무엇보다 값진 것으로 생각합니다.</p>
+          </div>
+          <ul>
+            <li>
+              <dl>
+                <dt>생년월일</dt>
+                <dd>1993.10.29</dd>
+              </dl>
+              <dl>
+                <dt>연락처</dt>
+                <dd>010-9473-1062</dd>
+              </dl>
+              <dl>
+                <dt>이메일</dt>
+                <dd>mile@asdal.com</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>경력사항</dt>
+                <dd>2017.11 ~ 2023.08<br>(주)인피아드 ㅣ 퍼블리싱팀 (과장, 팀장)</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>보유스킬</dt>
+                <dd>
+                  <p><b>HTML5</b><span class="html"></span></p>
+                  <p><b>CSS3</b><span class="css"></span></p>
+                  <p><b>Javascript</b><span class="js"></span></p>
+                  <p><b>Jquery</b><span class="jq"></span></p>
+                  <p><b>React</b><span class="react"></span></p>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
