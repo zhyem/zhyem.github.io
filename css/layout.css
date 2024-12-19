@@ -1,0 +1,80 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.Header .wrap {
+  max-width: 1800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.Header h1 {
+  font-size: 1em;
+  float: left;
+}
+
+.Header h1 a {
+  font-family: 'Poppins', serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 126px;
+  color: #000;
+  transition: 1s 0.3s;
+}
+
+.Header nav {
+  float: right;
+}
+
+.Header li {
+  float: left;
+  margin-left: 4.0625em;
+}
+
+.Header li:first-child {
+  margin-left: 0;
+}
+
+.Header li a {
+  font-family: 'Poppins', serif;
+  font-size: 18px;
+  line-height: 126px;
+  color: #000;
+  transition: 0.3s;
+}
+
+.fp-viewing-secondPage .Header h1 a,
+.fp-viewing-PORTFOLIO .Header h1 a {
+  color: #fff;
+}
+.fp-viewing-secondPage .Header li a,
+.fp-viewing-PORTFOLIO .Header li a {
+  color: #fff;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  width: 100%;
+  height: 0;
+}
+
+.Footer .wrap {
+  max-width: 1800px;
+  position: relative;
+}
+
+.Footer .copy {
+  position: absolute;
+  right: 20px;
+  bottom: 2.5em;
+  font-size: 0.875em;
+  line-height: 1;
+  text-transform: uppercase;
+}

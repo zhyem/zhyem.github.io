@@ -1,0 +1,188 @@
+#section0 {
+  text-align: center;
+}
+#section0 h2 {
+  font-family: 'Pretendard-SemiBold';
+  font-size: 5em;
+  font-weight: 600;
+  color: #000;
+}
+#section0 h2 span {
+  position: relative;
+}
+#section0 h2 span:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -8px;
+  width: calc(100% + 10px);
+  height: calc(100% + 6px);
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+#section1 {
+  text-align: center;
+}
+#section1 h2 {
+  font-family: 'Poppins', serif;
+  font-size: 3.75em;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+}
+#section1 .tab_area {
+  margin-top: 3.375em;
+  overflow: hidden;
+}
+#section1 .tabs {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 785px;
+  margin: 0 auto;
+  border: 5px solid #2e2e2e;
+  background-color: #2e2e2e;
+  border-radius: 35px;
+}
+#section1 .tabs a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 1.125em;
+  width: 10.5556em;
+  border-radius: 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+#section1 .tabs a:hover {
+  background-color: #aaa;
+}
+#section1 .tabs a.current {
+  background-color: #1b9dda;
+}
+#section1 .tab_cons {
+  position: relative;
+  max-width: 1600px;
+  margin: 6.25em auto 0;
+}
+#section1 .tab_cons > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.3s;
+}
+#section1 .tab_cons > li.current {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transform: translateY(0);
+}
+#section1 .tab_cons > li a dl {
+  margin-top: 2em;
+  padding: 0 0.625em;
+  text-align: left;
+}
+#section1 .tab_cons > li a dl dt {
+  font-family: 'Pretendard-Medium';
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #fff;
+}
+#section1 .tab_cons > li a dl dd {
+  margin-top: 0.625em;
+  color: #fff;
+}
+
+.section2_content {
+  max-width: 1640px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.section2_content .top {
+  text-align: center;
+}
+.section2_content .top h2 {
+  font-family: 'Pretendard-SemiBold';
+  font-size: 3.75em;
+  font-weight: 600;
+  line-height: 1.3334;
+  color: #000;
+}
+.section2_content .top h2 span {
+  color: #1b9dda;
+}
+.section2_content .top p {
+  font-size: 1.125em;
+  line-height: 1.8334;
+  margin-top: 2.3334em;
+}
+.section2_content ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.125em;
+}
+.section2_content ul li {
+  width: 30%;
+  max-width: 480px;
+  border-top: 1px solid #000;
+  padding: 2.5em 1.875em;
+}
+.section2_content ul li dl {
+  display: flex;
+  font-size: 1.125em;
+  line-height: 2.1112;
+}
+.section2_content ul li dl dt {
+  width: 26%;
+  color: #000;
+}
+.section2_content ul li dl dd {
+  width: 74%;
+}
+.section2_content ul li dl dd p {
+  display: flex;
+  align-items: center;
+}
+.section2_content ul li dl dd p b {
+  display: block;
+  width: 5.5em;
+  font-weight: 400;
+}
+.section2_content ul li dl dd p span {
+  display: block;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 50%;
+  height: 8px;
+}
+.section2_content ul li dl dd p span:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #1b9dda;
+}
+.section2_content ul li dl dd p span.html:after {
+  width: 95%;
+}
+.section2_content ul li dl dd p span.css:after {
+  width: 95%;
+}
+.section2_content ul li dl dd p span.js:after {
+  width: 80%;
+}
+.section2_content ul li dl dd p span.jq:after {
+  width: 80%;
+}
+.section2_content ul li dl dd p span.react:after {
+  width: 50%;
+}
